@@ -14,6 +14,7 @@ function App() {
         <Routes>
           <Route exact path='/' element={<About />} />
           <Route exact path='/portfolio' element={<Portfolio />} />
+          <Route exact path='/contact' element= {<ContactForm />}/>
           <Route exact path='/resume' element={<Resume />} />
         </Routes>
         {/* footer comp */}

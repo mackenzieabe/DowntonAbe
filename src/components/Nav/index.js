@@ -30,7 +30,7 @@ function Nav() {
                     {/* <li className={`mx-2 ${contactSelected && 'navActive'}`}> */}
                     <li className="mx-2">
                         {/* <span onClick={() => setContactSelected(true)}>Contact</span> */}
-                        <span>Contact</span>
+                        <a data-testid="contact" href="/contact"> Contact </a>
                         
                     </li>
                     <li className="mx-2">
