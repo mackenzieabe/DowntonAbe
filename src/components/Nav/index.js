@@ -1,18 +1,18 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 
-function Nav(props) {
-    const {
-        categories = [],
-        setCurrentCategory,
-        currentCategory,
-        contactSelected,
-        setContactSelected
-    } = props;
+function Nav() {
+    // const {
+    //     categories = [],
+    //     setCurrentCategory,
+    //     currentCategory,
+    //     contactSelected,
+    //     setContactSelected
+    // } = props;
 
 
-    useEffect(() => {
-        document.title = (currentCategory.name);
-    }, [currentCategory]);
+    // useEffect(() => {
+    //     document.title = (currentCategory.name);
+    // }, [currentCategory]);
 
     return (
         <header className="flex-row px-1">
@@ -24,18 +24,24 @@ function Nav(props) {
             <nav>
                 <ul className="flex-row">
                     <li className="mx-2">
-                        <a data-testid="about" href="#about" onClick={() => setContactSelected(false)}> About </a>
+                        {/* <a data-testid="about" href="/" onClick={() => setContactSelected(false)}> About </a> */}
+                        <a data-testid="about" href="/"> About </a>
                     </li>
-                    <li className={`mx-2 ${contactSelected && 'navActive'}`}>
-                        <span onClick={() => setContactSelected(true)}>Contact</span>
+                    {/* <li className={`mx-2 ${contactSelected && 'navActive'}`}> */}
+                    <li className="mx-2">
+                        {/* <span onClick={() => setContactSelected(true)}>Contact</span> */}
+                        <span>Contact</span>
+                        
                     </li>
                     <li className="mx-2">
-                        <a data-testid="portfolio" href="#portfolio" onClick={() => setContactSelected(false)}> Portfolio </a>
+                        {/* <a data-testid="portfolio" href="/portfolio" onClick={() => setContactSelected(false)}> Portfolio </a> */}
+                        <a data-testid="portfolio" href="/portfolio"> Portfolio </a>
                     </li>
                     <li className="mx-2">
-                        <a data-testid="resume" href="#resume" onClick={() => setContactSelected(false)}> Resume </a>
+                        {/* <a data-testid="resume" href="/resume" onClick={() => setContactSelected(false)}> Resume </a> */}
+                        <a data-testid="resume" href="/resume"> Resume </a>
                     </li>
-                    {categories.map((category) => (
+                    {/* {categories.map((category) => (
                         <li
                             className={`mx-1 ${currentCategory.name === category.name && !contactSelected && `navActive`
                                 }`}
@@ -50,7 +56,7 @@ function Nav(props) {
                                 {category.name}
                             </span>
                         </li>
-                    ))}
+                    ))} */}
                 </ul>
 
             </nav>
