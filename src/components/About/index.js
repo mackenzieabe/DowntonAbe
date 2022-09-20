@@ -4,13 +4,20 @@ import React from 'react';
 function About() {
 
     return (
-        <section className="my-5" >
-            <h1 id="about">About Me</h1>
-            <img src='/images/mymug.JPG' className= "my-2" style={{  width: "20%" }} alt= "my face" /> 
-            <div className= "my-2">
-                <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec bibendum turpis sed ex condimentum molestie. Mauris condimentum lectus ut ornare dignissim. Mauris faucibus urna mi, ac feugiat metus aliquam maximus. Proin aliquam justo nec diam vulputate vestibulum. Aenean sollicitudin nulla at nisi ornare, nec suscipit massa eleifend. Morbi tristique justo vel turpis sollicitudin, et tristique velit convallis. In hac habitasse platea dictumst. Phasellus mattis nunc sed orci consequat laoreet. Praesent id nisl nibh. Curabitur imperdiet ultricies mollis. In hac habitasse platea dictumst.
-                </p>
+
+        <section className="container-fluid my-5" >
+            {/* <h2 id="about" className="">About Me</h2> */}
+            <div class="row">
+                <div class="col-lg-3">
+                    <img src='/images/mymug.JPG' className="my-2 rounded" style={{ width: "70%" }} alt="my face" />
+                </div>
+                <div id="about-me" className="col-lg-6 text-center font-weight-bold">
+                    <p>
+                        Hi! I'm Mackenzie, a web developer based out of Charlotte, NC. I love to learn, create and problem-solve. My interests include reading, gardening, animals and making things.</p>
+                    <p>
+                        You can reach me at mackenzieabe@gmail.com. Let's connect!
+                    </p>
+                </div>
             </div>
         </section>
     )
