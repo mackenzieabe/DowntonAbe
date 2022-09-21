@@ -1,9 +1,10 @@
 body {
   margin: 0;
-  font-family: 'Abel', sans-serif;
+  font-family: 'Cormorant Garamond', serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: url('../public/images/background.jpg');
+  background-image: url('../public/images/background.jpg'); filter:blur(.5px);
+  
 }
 
 .row {
@@ -11,19 +12,25 @@ body {
  
 }
 code {
-  font-family:'Abel', sans-serif;
+  font-family:'Cormorant Garamond', serif;
 }
 .navbar-div{
-  font:'Abel', sans-serif;
+  font-family:'Cormorant Garamond', serif;
+  font-family: bold;
 }
 
 .navbar .navbar-nav .nav-item{
   position:relative;
   padding: 10%;
+  font-weight: bold;
+  font-size:20px ;
  
 }
 #about-me{
   font-size: 25px;
+  font-family:'Cormorant Garamond', serif;
+  color: black;
+  font-weight: bold;
 }
 .navbar .navbar-nav .nav-item::after {
   position: absolute;
@@ -31,7 +38,6 @@ code {
   left: 0;
   right: 0;
   content: '';
-  background: url('../public/images/background.jpg');
   background-color:black;
   width: 0;
   height: 4px;

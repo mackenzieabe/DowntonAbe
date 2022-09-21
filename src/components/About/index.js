@@ -11,7 +11,7 @@ function About() {
                 <div class="col-lg-3">
                     <img src='/images/mymug.JPG' className="my-2 rounded" style={{ width: "70%" }} alt="my face" />
                 </div>
-                <div id="about-me" className="col-lg-6 text-center font-weight-bold">
+                <div id="about-me" className="col-lg-4 text-center font-weight-bold">
                     <p>
                         Hi! I'm Mackenzie, a web developer based out of Charlotte, NC. I love to learn, create and problem-solve. My interests include reading, gardening, animals and making things.</p>
                     <p>
