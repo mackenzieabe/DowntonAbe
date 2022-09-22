@@ -1,7 +1,7 @@
 import React from 'react';
 // import myMug from "../../assets/aboutme/mymug.JPG"
 
-function About() {
+export default function About() {
 
     return (
 
@@ -30,4 +30,3 @@ function About() {
     )
 }
 
-export default About;
