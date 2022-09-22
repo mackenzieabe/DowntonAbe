@@ -1,67 +1,47 @@
-import React from 'react';
+import React, {useState } from "react";
+import * as FaIcons from 'react-icons/fa';
+import * as AiIcons from 'react-icons/ai';
+import { IconContext } from 'react-icons';
+import './nav.css'
+// import { navData } from '../../lib/navData'
+import { Link } from "react-router-dom";
+import { SidebarData } from "./SideBarData";
 
-function Nav() {
-    // const {
-    //     categories = [],
-    //     setCurrentCategory,
-    //     currentCategory,
-    //     contactSelected,
-    //     setContactSelected
-    // } = props;
-
-
-    // useEffect(() => {
-    //     document.title = (currentCategory.name);
-    // }, [currentCategory]);
-
+function Navigation() {
+    const [sidebar, setSidebar] = useState(false);
+  
+    const showSidebar = () => setSidebar(!sidebar);
+  
     return (
-        <header className="flex-row px-1">
-            <h2>
-                <a data-testid="link" href="/">
-                    <span role="button" aria-label="myname">Mackenzie Giesler-Abe</span>
-                </a>
-            </h2>
-            <nav>
-                <ul className="flex-row">
-                    <li className="mx-2">
-                        {/* <a data-testid="about" href="/" onClick={() => setContactSelected(false)}> About </a> */}
-                        <a data-testid="about" href="/"> About </a>
-                    </li>
-                    {/* <li className={`mx-2 ${contactSelected && 'navActive'}`}> */}
-                    <li className="mx-2">
-                        {/* <span onClick={() => setContactSelected(true)}>Contact</span> */}
-                        <a data-testid="contact" href="/contact"> Contact </a>
-                        
-                    </li>
-                    <li className="mx-2">
-                        {/* <a data-testid="portfolio" href="/portfolio" onClick={() => setContactSelected(false)}> Portfolio </a> */}
-                        <a data-testid="portfolio" href="/portfolio"> Portfolio </a>
-                    </li>
-                    <li className="mx-2">
-                        {/* <a data-testid="resume" href="/resume" onClick={() => setContactSelected(false)}> Resume </a> */}
-                        <a data-testid="resume" href="/resume"> Resume </a>
-                    </li>
-                    {/* {categories.map((category) => (
-                        <li
-                            className={`mx-1 ${currentCategory.name === category.name && !contactSelected && `navActive`
-                                }`}
-                            key={category.name}
-                        >
-                            <span
-                                onClick={() => {
-                                    setCurrentCategory(category);
-                                    setContactSelected(false)
-                                }}
-                            >
-                                {category.name}
-                            </span>
-                        </li>
-                    ))} */}
-                </ul>
-
-            </nav>
-        </header>
+      <>
+        <IconContext.Provider value={{ color: '#fff' }}>
+          <div className='navbar'>
+            <Link to='#' className='menu-bars'>
+              <FaIcons.FaBars onClick={showSidebar} />
+            </Link>
+          </div>
+          <nav className={sidebar ? 'nav-menu active' : 'nav-menu'}>
+            <ul className='nav-menu-items' onClick={showSidebar}>
+              <li className='navbar-toggle'>
+                <Link to='#' className='menu-bars'>
+                  <AiIcons.AiOutlineClose />
+                </Link>
+              </li>
+              {SidebarData.map((item, index) => {
+                return (
+                  <li key={index} className={item.cName}>
+                    <Link to={item.path}>
+                      {item.icon}
+                      <span>{item.title}</span>
+                    </Link>
+                  </li>
+                );
+              })}
+            </ul>
+          </nav>
+        </IconContext.Provider>
+      </>
     );
-}
-
-export default Nav;
+  }
+  
+  export default Navigation;

@@ -1,19 +1,32 @@
 import React from 'react';
 // import myMug from "../../assets/aboutme/mymug.JPG"
 
-function About() {
+export default function About() {
 
     return (
-        <section className="my-5" >
-            <h1 id="about">About Me</h1>
-            <img src='/images/mymug.JPG' className= "my-2" style={{  width: "20%" }} alt= "my face" /> 
-            <div className= "my-2">
-                <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec bibendum turpis sed ex condimentum molestie. Mauris condimentum lectus ut ornare dignissim. Mauris faucibus urna mi, ac feugiat metus aliquam maximus. Proin aliquam justo nec diam vulputate vestibulum. Aenean sollicitudin nulla at nisi ornare, nec suscipit massa eleifend. Morbi tristique justo vel turpis sollicitudin, et tristique velit convallis. In hac habitasse platea dictumst. Phasellus mattis nunc sed orci consequat laoreet. Praesent id nisl nibh. Curabitur imperdiet ultricies mollis. In hac habitasse platea dictumst.
-                </p>
+
+        <section className="container-fluid my-5" >
+          
+            
+            <div class="row">
+                <div id="about-me" className="col text-center font-weight-bold">
+                    <p>
+                        Hi! I'm Mackenzie, a web developer based out of Charlotte, NC. I love to learn, create and problem-solve.
+                        <br>
+                        </br>
+                        My interests include reading, gardening, animals and making things.</p>
+                    <p>
+                        <br>
+                        </br>
+                        You can reach me at mackenzieabe@gmail.com. Let's connect!
+                    </p>
+                </div>
+                <div class="col-3">
+                    <img src='/images/mymug.JPG' id="myface" className="m-6 rounded" style={{ width: "80%" }} alt="my face" />
+                </div>
+
             </div>
         </section>
     )
 }
 
-export default About;

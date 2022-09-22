@@ -1,8 +1,4 @@
 import React, { useRef } from 'react';
-
-// import { useState, useEffect } from 'react'
-// import { validateEmail } from '../../utils/helpers';
-// import { useEffect } from 'react';
 import emailjs from "emailjs-com"
 
 
