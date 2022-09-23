@@ -6,6 +6,7 @@ import Contact from './components/Contact';
 import Portfolio from './components/Portfolio';
 import Resume from './components/Resume';
 import Home from './components/Home';
+import Footer  from '../src/socialfollow'
 import './App.css'
 
 
@@ -15,6 +16,7 @@ import './App.css'
 
 function App() {
   return (
+    <section>
     <div className='App'>
       <Router>
         <Navigation />
@@ -28,6 +30,10 @@ function App() {
       </Router>
 
     </div>
+  <Footer/>
+   
+    
+    </section>
   );
 }
 

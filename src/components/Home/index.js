@@ -8,7 +8,7 @@ const Home = () => {
             <div className='container'>
                 <div className='homepage-text'>
                     <p className='intro'> hi, i'm mackenzie</p>
-                    <p className='welcome'>welcome</p>
+                    <p className='welcome'>WELCOME</p>
                 </div>
                 <div className='homepage-pic'>
                     {/* <div className='col'> */}

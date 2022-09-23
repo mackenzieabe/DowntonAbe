@@ -2,6 +2,7 @@
 
 
 
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -17,4 +18,40 @@
   align-items: center;
   justify-content: center;
   font-size: 3rem;
+}
+
+footer{
+  background-color:rgb(224, 216, 176);
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 4.5rem;  
+  
+} 
+.footer-container{
+  display: flex;
+  justify-content: center;
+  /* margin-right: auto; */
+  margin: 15px;
+  transition: transform 250ms;
+}
+
+a.social {
+  margin: 0 1rem;
+  transition: transform 250ms;
+ } 
+
+a.social:hover {
+  transform: translateY(-2px);
+} 
+.linkedin{
+  margin:10px;
+}
+.github{
+color: black;
+margin: 10px;
+}
+.stack-overflow{
+  color: orange;
+  margin: 10px;
 }

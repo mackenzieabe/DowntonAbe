@@ -1,0 +1,17 @@
+/* body{
+    background-image: url('../../../public/images/aboutme.jpg');
+    
+} */
+
+#aboutme {
+ display: flex;
+ justify-content: center;
+ padding: 10%;
+
+} 
+
+p {
+    color: rgb(206, 148, 97) ;
+    font-weight: bold;
+    font-size: 20px;
+}

@@ -69,4 +69,12 @@
   
   span {
     margin-left: 16px;
-  }
+  } 
+
+ .name{
+    font-family: 'Homemade Apple', cursive;
+   color: rgb(206, 148, 97);
+   margin: 20px;
+ 
+   
+}
