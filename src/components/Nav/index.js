@@ -20,9 +20,9 @@ function Navigation() {
           <Link to='#' className='menu-bars'>
             <FaIcons.FaBars onClick={showSidebar} />
           </Link>
-          {/* <div className="name-header"> */}
+          <div className="name-header">
             <p  className="name">mackenzie giesler-abe</p>
-          {/* </div> */}
+          </div>
         </div>
         <nav className={sidebar ? 'nav-menu active' : 'nav-menu'}>
           <ul className='nav-menu-items' onClick={showSidebar}>

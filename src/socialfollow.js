@@ -4,7 +4,7 @@ import * as FaIcons from 'react-icons/fa';
 export default function Footer() {
   return (
     <footer>
-    <div class="footer-container">
+    <div className="footer-container">
       <a href="www.linkedin.com/in/mackenzie-abe-69a8001a3"
         className="linkedin">
         <FaIcons.FaLinkedin size="30px"/>

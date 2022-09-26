@@ -14,4 +14,36 @@ p {
     color: rgb(206, 148, 97) ;
     font-weight: bold;
     font-size: 20px;
+} 
+
+
+.container{
+    display: flex;
+    justify-content:space-around
+}
+
+#homepage{
+   /* position:absolute; */
+   right: 0%;
+   width: 70%;
+   padding: 5px;
+   margin: 10%;
+   border-radius: 80px;
+   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+}
+.homepage-text{
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    font-size: 40px;
+    color: rgb(206, 148, 97) ;
+    margin: auto;
+}
+.intro{
+    font-size: 50px;
+    text-align: center;
+}
+.welcome{
+    text-align: center;
+    font-family: 'Homemade Apple', cursive;
 }
