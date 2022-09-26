@@ -5,7 +5,7 @@ pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/$
 
 
 function Resume() {
-  const [numPages, setNumPages] = useState(null);
+  const [ numPages, setNumPages] = useState(null);
   const [pageNumber] = useState(1);
 
   function onDocumentLoadSuccess({ numPages }) {
