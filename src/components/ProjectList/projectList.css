@@ -4,6 +4,7 @@ img{
 
 .gallery{
     padding: 80px, 0;
+    margin: 50px;
 } 
 
 .gallery img{
@@ -12,4 +13,11 @@ img{
     width: 100%;
     box-shadow: 0 0 15px rgba(0,0,0,0.3);
     cursor: pointer;
+}
+.project-names{
+display: flex;
+justify-content: center;
+text-decoration: none;
+color: rgb(206, 148, 97); 
+font-weight: bold;
 }

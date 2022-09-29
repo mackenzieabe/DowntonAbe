@@ -1,32 +1,37 @@
 import React from 'react';
-// import myMug from "../../assets/aboutme/mymug.JPG"
+// import myMug from "../../assets/aboutme/mymug.JPG"\
+import './about.css'
+// import './home.css'
+
 
 export default function About() {
 
+
     return (
 
-        <section className="container-fluid my-5" >
-          
-            
-            <div class="row">
-                <div id="about-me" className="col text-center font-weight-bold">
-                    <p>
-                        Hi! I'm Mackenzie, a web developer based out of Charlotte, NC. I love to learn, create and problem-solve.
+        <section>
+            <div className='container'>
+                <div className='homepage-text'>
+                    <p className='intro'> Hi! I'm Mackenzie</p>
+                    <p className="col text-center font-weight-bold">
+                        I'm  a web developer based out of Charlotte, NC. I love to learn, create and organize.
                         <br>
                         </br>
-                        My interests include reading, gardening, animals and making things.</p>
-                    <p>
-                        <br>
-                        </br>
-                        You can reach me at mackenzieabe@gmail.com. Let's connect!
-                    </p>
-                </div>
-                <div class="col-3">
-                    <img src='/images/mymug.JPG' id="myface" className="m-6 rounded" style={{ width: "80%" }} alt="my face" />
-                </div>
+                        My interests include reading, gardening, and making things.</p>
+                        <br></br>
+                        <p className='welcome'>i'm glad you're here</p>
 
+                </div>
+                <div className='homepage-pic'>
+                    {/* <div className='col'> */}
+                    {/* <div className='float-right'> */}
+                    <img src='/images/homepage.jpg' id='homepage' alt='my smiley face'></img>
+                    {/* </div> */}
+                    {/* </div> */}
+                </div>
             </div>
         </section>
+
     )
 }
 

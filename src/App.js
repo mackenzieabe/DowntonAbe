@@ -5,7 +5,11 @@ import About from './components/About';
 import Contact from './components/Contact';
 import Portfolio from './components/Portfolio';
 import Resume from './components/Resume';
+// import Home from './components/Home';
+import Footer  from '../src/socialfollow'
 import './App.css'
+
+
 
 
 
@@ -14,10 +18,12 @@ import './App.css'
 
 function App() {
   return (
+    <section>
     <div className='App'>
       <Router>
         <Navigation />
         <Switch>
+          {/* <Route exact path='/' component={Home}/> */}
           <Route exact path='/' component={About}/>
           <Route exact path='/contact' component={Contact}/>
           <Route exact path='/portfolio' component={Portfolio}/>
@@ -26,6 +32,10 @@ function App() {
       </Router>
 
     </div>
+  <Footer/>
+   
+    
+    </section>
   );
 }
 
