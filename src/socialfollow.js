@@ -5,7 +5,7 @@ export default function Footer() {
   return (
     <footer>
     <div className="footer-container">
-      <a href="www.linkedin.com/in/mackenzie-abe-69a8001a3"
+      <a href="https://www.linkedin.com/in/mackenzie-giesler-abe/"
         className="linkedin">
         <FaIcons.FaLinkedin size="30px"/>
       </a>

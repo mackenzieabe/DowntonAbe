@@ -1,23 +1,54 @@
 import React from 'react';
-import resumeHtml from  '../../index.html'
-// import resume from '../../assets/myresume.pdf';
-// import { Document, Page, pdfjs } from 'react-pdf';
-// pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
-
+import './resume.css'
 
 function Resume() {
-//   const [ numPages, setNumPages] = useState(null);
-//   const [pageNumber] = useState(1);
-
-//   function onDocumentLoadSuccess({ numPages }) {
-//     setNumPages(numPages);
-//   }
-
   return (
-    <div>
-    {resumeHtml}
-      
-    </div>
-  );
+    <section>
+      <div className='container'>
+        <div className='row'>
+          <div className='col text-center'>
+            <h1> Resume </h1>
+            <a href='https://drive.google.com/file/d/1qW1EhEpMQ78qJM4uVx09JfLkGKqIz654/view?usp=sharing'>
+              <button className='downloadbtn'>Download</button>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div className='container'>
+        <div >
+          <h3>Front-end Proficiences</h3>
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>JQuery</li>
+            <li>responsive design</li>
+            <li>React</li>
+            <li>Bootstrap</li>
+          </ul>
+        </div>
+        <div>
+          <h3> Back-end Proficiences</h3>
+          <ul>
+            <li>APIs</li>
+            <li>Node</li>
+            <li>Express</li>
+            <li>Mysql, Sequelize</li>
+            <li>MondoDB, Mongoose</li>
+            <li>REST</li>
+          </ul>
+
+        </div>
+      </div>
+      {/* <div>
+        <a href='https://drive.google.com/file/d/1qW1EhEpMQ78qJM4uVx09JfLkGKqIz654/view?usp=sharing'>
+          <button>Download</button>
+        </a>
+      </div> */}
+    </section>
+  )
 }
+
 export default Resume;
+
+
