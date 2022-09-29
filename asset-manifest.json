@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/photo-port/static/css/main.204e0a0d.css",
-    "main.js": "/photo-port/static/js/main.c4766bee.js",
-    "index.html": "/photo-port/index.html",
-    "main.204e0a0d.css.map": "/photo-port/static/css/main.204e0a0d.css.map",
-    "main.c4766bee.js.map": "/photo-port/static/js/main.c4766bee.js.map"
+    "main.css": "/downtonabe/static/css/main.204e0a0d.css",
+    "main.js": "/downtonabe/static/js/main.c4766bee.js",
+    "index.html": "/downtonabe/index.html",
+    "main.204e0a0d.css.map": "/downtonabe/static/css/main.204e0a0d.css.map",
+    "main.c4766bee.js.map": "/downtonabe/static/js/main.c4766bee.js.map"
   },
   "entrypoints": [
     "static/css/main.204e0a0d.css",
