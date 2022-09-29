@@ -23,11 +23,7 @@ export default function About() {
 
                 </div>
                 <div className='homepage-pic'>
-                    {/* <div className='col'> */}
-                    {/* <div className='float-right'> */}
-                    <img src='/images/homepage.jpg' id='homepage' alt='my smiley face'></img>
-                    {/* </div> */}
-                    {/* </div> */}
+                  <img src='images/homepage.jpg' id='homepage' alt='my smiley face'></img>
                 </div>
             </div>
         </section>

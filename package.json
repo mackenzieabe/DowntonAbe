@@ -1,6 +1,6 @@
 {
+  "homepage": "http://mackenzieabe.github.io/DowntonAbe",
   "name": "downtonabe",
-  "homepage": "http://mackenzieabe.github.io/downtonabe",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
