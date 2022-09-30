@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/DowntonAbe/static/css/main.204e0a0d.css",
-    "main.js": "/DowntonAbe/static/js/main.0a47d8c5.js",
+    "main.js": "/DowntonAbe/static/js/main.d79d0565.js",
     "index.html": "/DowntonAbe/index.html",
     "main.204e0a0d.css.map": "/DowntonAbe/static/css/main.204e0a0d.css.map",
-    "main.0a47d8c5.js.map": "/DowntonAbe/static/js/main.0a47d8c5.js.map"
+    "main.d79d0565.js.map": "/DowntonAbe/static/js/main.d79d0565.js.map"
   },
   "entrypoints": [
     "static/css/main.204e0a0d.css",
-    "static/js/main.0a47d8c5.js"
+    "static/js/main.d79d0565.js"
   ]
 }
