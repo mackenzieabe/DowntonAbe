@@ -24,7 +24,7 @@ export default function About() {
 
                 </div>
                 <div className='homepage-pic'>
-                  <img src='./images/homepage.jpg' id='homepage' alt='my smiley face'></img>
+                  <img src='/images/homepage.jpg' id='homepage' alt='my smiley face'></img>
                 </div>
             </div>
         </section>
