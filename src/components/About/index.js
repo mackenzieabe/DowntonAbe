@@ -2,7 +2,7 @@ import React from 'react';
 // import myMug from "../../assets/aboutme/mymug.JPG"\
 import './about.css'
 // import './home.css'
-import image from '../../../public'
+// import image from '../../../public'
 
 
 export default function About() {
@@ -24,7 +24,7 @@ export default function About() {
 
                 </div>
                 <div className='homepage-pic'>
-                  <img src='./images/homepage.jpg' id='homepage' alt='my smiley face'></img>
+                  <img src='/assets/images/homepage.jpg' id='homepage' alt='my smiley face'></img>
                 </div>
             </div>
         </section>
