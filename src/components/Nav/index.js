@@ -3,7 +3,6 @@ import * as FaIcons from 'react-icons/fa';
 import * as AiIcons from 'react-icons/ai';
 import { IconContext } from 'react-icons';
 import './nav.css'
-// import { navData } from '../../lib/navData'
 import { Link } from "react-router-dom";
 import { SidebarData } from "./SideBarData";
 
@@ -21,7 +20,7 @@ function Navigation() {
             <FaIcons.FaBars onClick={showSidebar} />
           </Link>
           <div className="name-header">
-            <p  className="name">mackenzie giesler-abe</p>
+            <p className="name">mackenzie giesler-abe</p>
           </div>
         </div>
         <nav className={sidebar ? 'nav-menu active' : 'nav-menu'}>

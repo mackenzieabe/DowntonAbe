@@ -40,11 +40,6 @@ function Resume() {
 
         </div>
       </div>
-      {/* <div>
-        <a href='https://drive.google.com/file/d/1qW1EhEpMQ78qJM4uVx09JfLkGKqIz654/view?usp=sharing'>
-          <button>Download</button>
-        </a>
-      </div> */}
     </section>
   )
 }

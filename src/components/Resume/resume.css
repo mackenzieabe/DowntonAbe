@@ -1,23 +1,21 @@
-h1{
-    /* display: flex;
-    justify-content: center; */
-    /* margin: auto; */
-    padding:25px;
-    color: rgb(206, 148, 97) ;
+h1 {
+    padding: 25px;
+    color: rgb(206, 148, 97);
     font-weight: bold;
 }
-h3{
-    color: rgb(206, 148, 97) ;
+
+h3 {
+    color: rgb(206, 148, 97);
     font-weight: bold;
-    margin:auto;
+    margin: auto;
     padding: 20px;
     font-family: 'Homemade Apple', cursive;
 }
 
-.downloadbtn{
+.downloadbtn {
     border-style: none;
     margin-bottom: 20px;
     background-color: rgb(243, 224, 181);
     border-radius: 25px;
-   
+
 }

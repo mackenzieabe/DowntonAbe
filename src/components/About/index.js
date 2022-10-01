@@ -18,16 +18,15 @@ export default function About() {
                         <br>
                         </br>
                         My interests include reading, gardening, and making things.</p>
-                        <br></br>
-                        <p className='welcome'>i'm glad you're here</p>
+                    <br></br>
+                    <p className='welcome'>i'm glad you're here</p>
 
                 </div>
                 <div className='homepage-pic'>
-                  <img src={Homepage} id='homepage' alt='my smiley face'></img>
+                    <img src={Homepage} id='homepage' alt='my smiley face'></img>
                 </div>
             </div>
         </section>
 
     )
 }
- 

@@ -19,7 +19,7 @@ const ProjectList = ({ cateogry }) => {
             <a href="https://mackenzieabe.github.io/TheQuizWiz/">
               <img src="../../assets/images/quizwiz.png" alt="quizqiz screenshot"></img>
             </a>
-            <a  className='project-names' href='https://github.com/mackenzieabe/TheQuizWiz.git'> The Quiz Wiz</a>
+            <a className='project-names' href='https://github.com/mackenzieabe/TheQuizWiz.git'> The Quiz Wiz</a>
           </div>
           <div className="col">
             <a href="https://konopie.github.io/cat-generator/">
