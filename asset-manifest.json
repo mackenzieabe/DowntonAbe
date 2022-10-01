@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/downtonabe/static/css/main.204e0a0d.css",
-    "main.js": "/downtonabe/static/js/main.14fee89c.js",
-    "static/media/wordraffle.png": "/downtonabe/static/media/wordraffle.e10e84542fb68d848dc5.png",
-    "static/media/homepage.jpg": "/downtonabe/static/media/homepage.69ba750b7516d4eed734.jpg",
-    "index.html": "/downtonabe/index.html",
-    "main.204e0a0d.css.map": "/downtonabe/static/css/main.204e0a0d.css.map",
-    "main.14fee89c.js.map": "/downtonabe/static/js/main.14fee89c.js.map"
+    "main.css": "/DowntonAbe/static/css/main.204e0a0d.css",
+    "main.js": "/DowntonAbe/static/js/main.eaeff4d8.js",
+    "static/media/wordraffle.png": "/DowntonAbe/static/media/wordraffle.e10e84542fb68d848dc5.png",
+    "static/media/homepage.jpg": "/DowntonAbe/static/media/homepage.69ba750b7516d4eed734.jpg",
+    "index.html": "/DowntonAbe/index.html",
+    "main.204e0a0d.css.map": "/DowntonAbe/static/css/main.204e0a0d.css.map",
+    "main.eaeff4d8.js.map": "/DowntonAbe/static/js/main.eaeff4d8.js.map"
   },
   "entrypoints": [
     "static/css/main.204e0a0d.css",
-    "static/js/main.14fee89c.js"
+    "static/js/main.eaeff4d8.js"
   ]
 }
