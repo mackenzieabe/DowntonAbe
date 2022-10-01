@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.204e0a0d.css",
-    "main.js": "/static/js/main.ee5b9136.js",
-    "static/media/wordraffle.png": "/static/media/wordraffle.e10e84542fb68d848dc5.png",
-    "static/media/homepage.jpg": "/static/media/homepage.69ba750b7516d4eed734.jpg",
-    "index.html": "/index.html",
-    "main.204e0a0d.css.map": "/static/css/main.204e0a0d.css.map",
-    "main.ee5b9136.js.map": "/static/js/main.ee5b9136.js.map"
+    "main.css": "/downtonabe/static/css/main.204e0a0d.css",
+    "main.js": "/downtonabe/static/js/main.14fee89c.js",
+    "static/media/wordraffle.png": "/downtonabe/static/media/wordraffle.e10e84542fb68d848dc5.png",
+    "static/media/homepage.jpg": "/downtonabe/static/media/homepage.69ba750b7516d4eed734.jpg",
+    "index.html": "/downtonabe/index.html",
+    "main.204e0a0d.css.map": "/downtonabe/static/css/main.204e0a0d.css.map",
+    "main.14fee89c.js.map": "/downtonabe/static/js/main.14fee89c.js.map"
   },
   "entrypoints": [
     "static/css/main.204e0a0d.css",
-    "static/js/main.ee5b9136.js"
+    "static/js/main.14fee89c.js"
   ]
 }
