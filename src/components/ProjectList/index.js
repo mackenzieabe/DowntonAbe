@@ -1,5 +1,7 @@
 import React from 'react';
 import './projectList.css'
+import Wordraffle from '../../assets/images/wordraffle.png'
+
 
 const ProjectList = ({ cateogry }) => {
 
@@ -9,7 +11,7 @@ const ProjectList = ({ cateogry }) => {
         <div className="row gy-4 row-cols-1 row-cols-sm-2 row-cols-md-3 ">
           <div className="col">
             <a href="https://calm-plains-32572.herokuapp.com/">
-              <img src="../../assets/images/wordraffle.png" alt="wordraffle screenshot"></img>
+              <img src={Wordraffle} alt="wordraffle screenshot"></img>
             </a>
             <a className='project-names' href='https://github.com/bethanyshoun/wordraffle.git'> Word Raffle </a>
           </div>

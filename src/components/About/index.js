@@ -1,5 +1,6 @@
 import React from 'react';
 import './about.css'
+import Homepage from '../../assets/images/homepage.jpg'
 
 
 
@@ -22,7 +23,7 @@ export default function About() {
 
                 </div>
                 <div className='homepage-pic'>
-                  <img src='../../assets/images/homepage.jpg' id='homepage' alt='my smiley face'></img>
+                  <img src={Homepage} id='homepage' alt='my smiley face'></img>
                 </div>
             </div>
         </section>
