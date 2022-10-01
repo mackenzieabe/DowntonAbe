@@ -8,7 +8,7 @@ export const SidebarData = [
  
   {
     title: 'About',
-    path: '/DowntonAbe',
+    path: '/about',
     icon: <FaIcons.FaAddressCard/>,
     cName: 'nav-text'
   },
