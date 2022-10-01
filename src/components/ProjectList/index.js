@@ -1,7 +1,7 @@
 import React from 'react'
 import './projectList.css'
 import wordraffle from '../../assets/images/wordraffle.png'
-import quizWiz from '../../assets/images/quizqiz.png'
+import quizWiz from '../../assets/images/quizwiz.png'
 import catGenie from '../../assets/images/catgenie.png'
 import doorsOfDurin from '../../assets/images/doorsofdurin.png'
 import weatherDashboard from '../../assets/images/notalwayssunny.png'
