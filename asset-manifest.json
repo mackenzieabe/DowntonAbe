@@ -1,15 +1,20 @@
 {
   "files": {
     "main.css": "/DowntonAbe/static/css/main.204e0a0d.css",
-    "main.js": "/DowntonAbe/static/js/main.60d55ea8.js",
+    "main.js": "/DowntonAbe/static/js/main.5d40f1bc.js",
+    "static/media/notalwayssunny.png": "/DowntonAbe/static/media/notalwayssunny.1ba783d2503c6039cd10.png",
+    "static/media/notetaker.png": "/DowntonAbe/static/media/notetaker.0cb27ce823701c342d1a.png",
+    "static/media/doorsofdurin.png": "/DowntonAbe/static/media/doorsofdurin.3d1ba24f4cce581be6c3.png",
+    "static/media/catgenie.png": "/DowntonAbe/static/media/catgenie.47a291c912d37c17b391.png",
+    "static/media/quizwiz.png": "/DowntonAbe/static/media/quizwiz.88d7b33dd574230eec34.png",
     "static/media/wordraffle.png": "/DowntonAbe/static/media/wordraffle.e10e84542fb68d848dc5.png",
     "static/media/homepage.jpg": "/DowntonAbe/static/media/homepage.69ba750b7516d4eed734.jpg",
     "index.html": "/DowntonAbe/index.html",
     "main.204e0a0d.css.map": "/DowntonAbe/static/css/main.204e0a0d.css.map",
-    "main.60d55ea8.js.map": "/DowntonAbe/static/js/main.60d55ea8.js.map"
+    "main.5d40f1bc.js.map": "/DowntonAbe/static/js/main.5d40f1bc.js.map"
   },
   "entrypoints": [
     "static/css/main.204e0a0d.css",
-    "static/js/main.60d55ea8.js"
+    "static/js/main.5d40f1bc.js"
   ]
 }
