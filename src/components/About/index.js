@@ -1,8 +1,6 @@
 import React from 'react';
-// import myMug from "../../assets/aboutme/mymug.JPG"\
 import './about.css'
-// import './home.css'
-// import image from '../../../public'
+
 
 
 export default function About() {
