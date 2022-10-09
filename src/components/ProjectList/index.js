@@ -5,7 +5,8 @@ import quizWiz from '../../assets/images/quizwiz.png'
 import catGenie from '../../assets/images/catgenie.png'
 import doorsOfDurin from '../../assets/images/doorsofdurin.png'
 import weatherDashboard from '../../assets/images/notalwayssunny.png'
-import noteTaker from '../../assets/images/notetaker.png'
+import footballFantasy from '../../assets/images/footballfantasy.png'
+
 
 
 const ProjectList = ({ cateogry }) => {
@@ -45,10 +46,10 @@ const ProjectList = ({ cateogry }) => {
             <a className='project-names' href='https://github.com/mackenzieabe/NotAlwaysSunny.git'>Weather Dashboard</a>
           </div>
           <div className="col">
-            <a href="https://noteablyawesome.herokuapp.com/notes">
-              <img src={noteTaker} alt="note taker screenshot"></img>
+            <a href="https://fantasy-football-draft-app.herokuapp.com/">
+              <img src={footballFantasy} alt="football fantasy screenshot"></img>
             </a>
-            <a className='project-names' href='https://github.com/mackenzieabe/notableyAwesome.git'>Note Taker</a>
+            <a className='project-names' href='https://github.com/MosNes/fantasy-football-draft.git'>Football Fantasy</a>
           </div>
         </div>
       </div>
