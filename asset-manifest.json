@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/DowntonAbe/static/css/main.1cd585e9.css",
-    "main.js": "/DowntonAbe/static/js/main.ea358575.js",
+    "main.css": "/DowntonAbe/static/css/main.13c268df.css",
+    "main.js": "/DowntonAbe/static/js/main.8a5dcc27.js",
     "static/media/footballfantasy.png": "/DowntonAbe/static/media/footballfantasy.77746b4065cd4fb05447.png",
     "static/media/notalwayssunny.png": "/DowntonAbe/static/media/notalwayssunny.1ba783d2503c6039cd10.png",
     "static/media/doorsofdurin.png": "/DowntonAbe/static/media/doorsofdurin.3d1ba24f4cce581be6c3.png",
@@ -10,11 +10,11 @@
     "static/media/wordraffle.png": "/DowntonAbe/static/media/wordraffle.e10e84542fb68d848dc5.png",
     "static/media/homepage.jpg": "/DowntonAbe/static/media/homepage.69ba750b7516d4eed734.jpg",
     "index.html": "/DowntonAbe/index.html",
-    "main.1cd585e9.css.map": "/DowntonAbe/static/css/main.1cd585e9.css.map",
-    "main.ea358575.js.map": "/DowntonAbe/static/js/main.ea358575.js.map"
+    "main.13c268df.css.map": "/DowntonAbe/static/css/main.13c268df.css.map",
+    "main.8a5dcc27.js.map": "/DowntonAbe/static/js/main.8a5dcc27.js.map"
   },
   "entrypoints": [
-    "static/css/main.1cd585e9.css",
-    "static/js/main.ea358575.js"
+    "static/css/main.13c268df.css",
+    "static/js/main.8a5dcc27.js"
   ]
 }
