@@ -14,12 +14,17 @@ export default function About() {
                 <div className='homepage-text'>
                     <p className='intro'> Hi! I'm Mackenzie</p>
                     <p className="col text-center font-weight-bold">
-                        I'm  a web developer based out of Charlotte, NC. I love to learn, create and organize.
-                        <br>
-                        </br>
-                        My interests include reading, gardening, and making things.</p>
-                    <br></br>
-                    <p className='welcome'>i'm glad you're here</p>
+                        I'm a full stack web developer based out of Charlotte, NC.
+                        <br></br>
+                        {/* </p>
+                        <p className='focus'> */}
+                        I have spent the last six months learning and growing as a developer
+                         in UNCC's coding bootcamp. 
+                         <br></br>
+                        My focus has been creating web applications using MongoDB, Express.js, React.js, and Node.js.
+                        <br></br>
+                        </p>
+                    
 
                 </div>
                 <div className='homepage-pic'>

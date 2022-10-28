@@ -5,7 +5,9 @@ import About from './components/About';
 import Contact from './components/Contact';
 import Portfolio from './components/Portfolio';
 import Resume from './components/Resume';
+import Home from './components/Nav/Home'
 import Footer from '../src/socialfollow'
+import HomePage from './components/HomePage';
 import './App.css'
 
 function App() {
@@ -14,8 +16,9 @@ function App() {
       <div className='App'>
         <Router>
           <Navigation />
+          <Home/>
           <Switch>
-            <Route exact path='/DowntonAbe' component={About} />
+            <Route exact path='/DowntonAbe' component={HomePage} />
             <Route exact path='/about' component={About} />
             <Route exact path='/contact' component={Contact} />
             <Route exact path='/portfolio' component={Portfolio} />

@@ -1,32 +1,32 @@
-import React from 'react';
-import * as FaIcons from 'react-icons/fa';
+// import React from 'react';
+// import * as FaIcons from 'react-icons/fa';
 
 
 export const SidebarData = [
 
   {
     title: 'About',
-    path: '/about',
-    icon: <FaIcons.FaAddressCard />,
-    cName: 'nav-text'
+    url: '/about',
+    // icon: 'fa fa-house',
+    cName: 'nav-links'//navtext
   },
   {
     title: 'Contact',
-    path: '/contact',
-    icon: <FaIcons.FaMailBulk />,
-    cName: 'nav-text'
+    url: '/contact',
+    // icon: 'fa fa-address-book',
+    cName: 'nav-links'
   },
   {
     title: 'Portfolio',
-    path: '/portfolio',
-    icon: <FaIcons.FaFolder />,
-    cName: 'nav-text'
+    url: '/portfolio',
+    // icon: 'fa fa-briefcase',
+    cName: 'nav-links'
   },
   {
     title: 'Resume',
-    path: '/resume',
-    icon: <FaIcons.FaFile />,
-    cName: 'nav-text'
+    url: '/resume',
+    // icon: 'fa fa-file',
+    cName: 'nav-links'
   }
 
 ];
